@@ -31,6 +31,6 @@ if formato=='json':
 elif formato=='xml':
     conv_xml.escrever_arquivo_xml(data,'../files/saida_xml.xml')
 elif formato=='yaml':
-    conv_yaml.escrever_arquivo_yaml(data,'../files/saida_xml.xml')
+    conv_yaml.escrever_arquivo_yaml(data,'../files/saida_yaml.yaml')
 else:
     print('formato nao suportado')
