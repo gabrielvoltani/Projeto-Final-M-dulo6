@@ -18,4 +18,3 @@ def escrever_arquivo_json(data,caminho_arquivo):
 
     print(f"Arquivo JSON '{caminho_arquivo}' criado com sucesso!")
 
-escrever_arquivo_json(data,'../files/saida_json.json')
