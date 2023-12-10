@@ -7,7 +7,7 @@ Este repositório contém os scripts para o projeto do Módulo 6 de Git e Versio
 * Gabriel Voltani Vatanabe
 * Jonas Henrique Arjona Gonçalves Vieira
 
-O objetivo do repositório é converter um arquivo CSV em um dos três formatos suportados: XML, JSON ou YAML.
+Os scripts desse repositório repositório criam um conversor de arquivos CSV em um dos três formatos suportados: XML, JSON ou YAML.
 
 # Como executar esse repositório?
 Primeiro, instale os pacotes necessários usando o `requirements.txt`. 
@@ -34,7 +34,9 @@ Colocamos nosso arquivo CSV dentro da pasta `files` e renomeamos ele como `data.
 python gerador-nf.py <FORMATO_ESCOLHIDO_DE_SAIDA>
 ```
 
-Dentro da própria pasta `files` teremos o arquivo convertido no formato escolhido. É importante mencionar que caso façamos a conversão de mais de um arquivo para o mesmo formato a saída da primeira conversão será substituída pela saída da segunda conversão. Os arquivos de um mesmo formato são salvos todos com o mesmo nome.
+Dentro da própria pasta `files` teremos o arquivo convertido no formato escolhido.
+
+É importante mencionar que caso façamos a conversão de mais de um arquivo para o mesmo formato a saída da primeira conversão será substituída pela saída da segunda conversão. Os arquivos de um mesmo formato são salvos todos com o mesmo nome.
 
 # Como contribuir?
 Dois pontos precisam ser melhorados:
