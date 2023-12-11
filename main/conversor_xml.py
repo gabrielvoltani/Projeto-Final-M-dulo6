@@ -1,9 +1,4 @@
-import csv
 import xml.etree.ElementTree as ET
-
-with open('../files/data.csv', newline='') as csvfile:
-    reader = csv.DictReader(csvfile)
-    data = [row for row in reader]
 
 def escrever_arquivo_xml(data,caminho_arquivo):
     root = ET.Element('ListaDeProdutos')
