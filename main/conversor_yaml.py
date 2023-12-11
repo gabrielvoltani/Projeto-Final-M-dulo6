@@ -1,9 +1,3 @@
-import csv
-
-with open('../files/data.csv', newline='') as csvfile:
-    reader = csv.DictReader(csvfile)
-    data = [row for row in reader]
-
 import yaml
 
 def escrever_arquivo_yaml(data,caminho_arquivo):
